@@ -87,14 +87,14 @@ export default function Homepage() {
       </div>
 
       <div className="flex flex-row justify-center items-center mt-40 space-x-1.5 md:space-x-5">
-        <h1 className="flex flex-col justify-center items-center"><ConfirmPlayInput />
+        <h1 className="flex flex-col justify-center items-center ml-3"><ConfirmPlayInput />
           <div className="flex flex-row space-x-3 text-sm md:text-base">
             <button onClick={clickOnPlay} className="mt-5 border rounded-xl border-none w-16 md:w-28 h-9 md:h-10 uppercase font-bold text-rose-900 bg-rose-400 ease-in-out duration-300 hover:scale-110">raffle</button>
             <button onClick={clickOnConfirm} className="mt-5 border rounded-xl border-none w-20 md:w-28 md:h-10 uppercase font-bold text-rose-900 bg-rose-400 ease-in-out duration-300 hover:scale-110">Confirm</button>
           </div>
         </h1>
 
-        <h1 className="flex flex-col justify-center items-center text-sm md:text-base"><AddInput />
+        <h1 className="flex flex-col justify-center items-center text-sm mr-3"><AddInput />
           <button onClick={clickOnAdd} className="mt-5 border rounded-xl border-none w-20 md:w-20 h-9 md:h-10 uppercase font-bold text-rose-900 bg-rose-400 ease-in-out duration-300 hover:scale-110">Add</button>
         </h1>
       </div>
