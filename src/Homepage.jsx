@@ -86,7 +86,7 @@ export default function Homepage() {
         <header className="mt-5 font-bold text-3xl md:text-9xl uppercase">{displayResult}</header>
       </div>
 
-      <div className="flex flex-row justify-center items-center mt-40 space-x-4">
+      <div className="flex flex-row justify-center items-center mt-40 space-x-2">
         <h1 className="flex flex-col justify-center items-center"><ConfirmPlayInput />
           <div className="flex flex-row space-x-3 text-sm md:text-base">
             <button onClick={clickOnPlay} className="mt-5 border rounded-xl border-none w-16 md:w-28 h-9 md:h-10 uppercase font-bold text-rose-900 bg-rose-400 ease-in-out duration-300 hover:scale-110">raffle</button>
