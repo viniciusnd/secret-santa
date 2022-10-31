@@ -28,16 +28,16 @@ export default function Homepage() {
     let valor2 = gettingConfirmPlayInput.value
     if (sort == valor2 || listOfParticipants.indexOf(valor2) <= -1 ) {
       sortName(
-        <span className="text-xl md:text-3xl text-amber-200 font-bold uppercase">Click on raffle again</span>
+        <span className="text-base md:text-3xl text-center text-amber-200 font-bold uppercase">Try Again!</span>
       )
     } else if (sort !== valor2 && listOfParticipants.indexOf(valor2) > -1) {
       sortName(sort)
     } else {
-      sortName(<span className="text-xl md:text-3xl text-amber-200 font-bold uppercase">Invalid Name!</span>)
+      sortName(<span className="text-base md:text-3xl text-amber-200 font-bold uppercase">Invalid Name!</span>)
     }
     if (sort === undefined) {
       sortName(
-        <span className="text-xl md:text-3xl text-amber-200 font-bold uppercase">There are no names in the list</span>
+        <span className="text-base md:text-3xl text-amber-200 font-bold uppercase">There are no names in the list</span>
       )
     }
   }
@@ -86,10 +86,10 @@ export default function Homepage() {
         <header className="mt-5 font-bold text-3xl md:text-9xl uppercase">{displayResult}</header>
       </div>
 
-      <div className="flex flex-row justify-center items-center mt-40 space-x-1.5 md:space-x-5">
+      <div className="flex flex-row justify-center items-center mt-40 space-x-10 md:space-x-5">
         <h1 className="flex flex-col justify-center items-center ml-3"><ConfirmPlayInput />
           <div className="flex flex-row space-x-3 text-sm md:text-base">
-            <button onClick={clickOnPlay} className="mt-5 border rounded-xl border-none w-16 md:w-28 h-9 md:h-10 uppercase font-bold text-rose-900 bg-rose-400 ease-in-out duration-300 hover:scale-110">raffle</button>
+            <button onClick={clickOnPlay} className="mt-5 border rounded-xl border-none w-16 md:w-28 h-9 md:h-10 uppercase font-bold text-rose-900 bg-rose-400 ease-in-out duration-300 hover:scale-110">Raffle</button>
             <button onClick={clickOnConfirm} className="mt-5 border rounded-xl border-none w-20 md:w-28 md:h-10 uppercase font-bold text-rose-900 bg-rose-400 ease-in-out duration-300 hover:scale-110">Confirm</button>
           </div>
         </h1>
