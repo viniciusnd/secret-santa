@@ -14,11 +14,13 @@ export default function Rules() {
                 <li className="flex flex-row"><img src="./svgs/caret-forward-outline.svg"/>Then, type your name in the box above the buttons "RAFFLE" and "CONFIRM";</li>
                 <li className="flex flex-row"><img src="./svgs/caret-forward-outline.svg"/>Then, click on RAFFLE;</li>
                 <li className="flex flex-row"><img src="./svgs/caret-forward-outline.svg"/>If you like the result, then click on CONFIRM to save it;</li>
-                <li className="flex flex-row"><img src="./svgs/caret-forward-outline.svg"/>It's very important to strictly follow these rules to avoid repetitions. </li>
+                <li className="flex flex-row"><img src="./svgs/caret-forward-outline.svg"/>It's very important to strictly follow these rules to avoid repetitions; </li>
+                <li className="flex flex-row"><img src="./svgs/caret-forward-outline.svg"/>If there are a odd number of players the next player to play cannot be the same player who just had their name raffled.</li>
+                <li className="flex flex-row"><img src="./svgs/caret-forward-outline.svg"/>If there are a odd number of players repeat the last rule at least for the two or three first rounds.</li>
             </ul>
         </div>
         <div className="flex flex-row justify-center mt-20">
-            <h1 className="text-center">
+            <h1 className="text-center mb-5">
                 <Link to="/"><img src="./svgs/acl.svg"/></Link>
             </h1>
         </div>

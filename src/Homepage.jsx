@@ -51,6 +51,7 @@ export default function Homepage() {
       console.log(addParticipants)
       var addingToList = listOfParticipants.push(valor)
       console.log(listOfParticipants)
+      
     }
   }
 
