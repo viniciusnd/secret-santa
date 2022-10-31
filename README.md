@@ -1,4 +1,4 @@
-<h1 align="center"> Letter Sorter </h1>
+<h1 align="center"> SECRET SANTA </h1>
 
 <div align="center">
 <h2>DESCRIPTION</h2>
@@ -19,6 +19,6 @@
 <div>
 <h4> IMPORTANT LINKS </h4>
 <ul>
-<li>To view the project online <a href="">CLICK HERE</a></li>
+<li>To view the project online <a href="secret-santa-eight.vercel.app">CLICK HERE</a></li>
 <li>To setup a project like this go to: <a href="https://tailwindcss.com/docs/guides/vite">Install Tailwind CSS with Vite</a></li>
 </div>
